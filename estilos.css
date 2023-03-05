@@ -1,0 +1,108 @@
+font-family: 'Roboto', sans-serif;
+
+body{
+    background-color: white;
+    margin: 1em;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: start ;
+}
+
+.logobarra:hover{
+    cursor: pointer;
+    align-self: center;
+
+}
+.inicio {
+     width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    font-size: 15px;
+    font-weight: bold;
+}
+.hoy {
+     width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    font-size: 15px;
+    font-weight: bold;
+}
+.crear {
+     width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.flecha{
+    width: 15px;
+    align-items: start;
+}
+ 
+
+img {
+    max-width: 100%;
+    margin-bottom: .5em;
+    display: block;
+    border-radius: 15px;
+        
+}
+
+
+.galeria {
+    columns: 5 320px;
+    column-gap: .5em;
+   
+}
+
+.foto{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.foto:hover{
+    cursor: pointer;
+    filter: opacity(60%);
+}
+
+.bdentro{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.bdentro:hover{
+    cursor: pointer;
+}
+.location{
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
